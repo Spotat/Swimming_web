@@ -97,8 +97,9 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center;
-        filter: brightness(80%) sepia(30%);
+        object-position: center right;
+        /* filter: brightness(80%) sepia(30%); */
+        filter: brightness(70%);
         transform: scaleX(-1);
     }
     .container {
@@ -120,13 +121,17 @@
         justify-content: space-around;
         backdrop-filter: blur(20px);
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 60px;
+        background: rgba(255, 255, 255, 0.058);
         top: 20px;
         position: sticky;
         z-index: 1000;
     }
     .sub_header > a{
         color: white;
+    }
+    .openNav {
+        display: none;
     }
     .header > .openNav {
         color: black;

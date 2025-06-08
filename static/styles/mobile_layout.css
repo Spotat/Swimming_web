@@ -32,6 +32,7 @@
         height: 100%;
         filter: brightness(70%) ;
         object-fit: cover;
+        object-position: center;
     }
     .hero-section > .nav-overlay {
         height: 100%;
@@ -117,23 +118,31 @@
         font-size: 24px;
     }
     .section-3 {
-        padding: 5rem 0;
+        padding: 0;
+        background: url(../images/brian-matangelo--BUPaAMSOdE-unsplash.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .section-3 > .container {
-        width: 90%;
+        width: 100%;
+        padding: 5rem 2rem;
+        backdrop-filter: brightness(80%) blur(2px);
     }
     .section-3 > .container > h5 {
         text-align: start;
         width: 100%;
     }
-    .section-3 h2 {
+    .section-3 > .container > h2 {
         font-size: 22px;
         text-align: start;
         width: 100%;
+        color: white;
     }
     .section-3 > .container > p {
         width: 100%;
         text-align: start;
+        color: white;
     }
     .container-fluid {
         grid-template-columns: 1fr;
@@ -142,7 +151,15 @@
         align-items: center;
     }
     .card-title > h2 {
+        font-size: 18px;
+    }
+    .card > p {
         font-size: 16px;
+        font-family: Roboto;
+        text-align: start;
+        margin-top: 20px;
+        font-weight: 500;
+        width: 90%;
     }
     #fluid_two {
         grid-template-columns: 1fr;
@@ -166,8 +183,13 @@
     }
     .services > .container {
         grid-template-columns: 1fr;
-        width: 100%;
-        gap: 0;
+        width: 90%;
+        gap: 3rem;
+    }
+    .box_body {
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.673), black);
+        padding: 2rem;
+        backdrop-filter: brightness(110%);
     }
     .service_heading {
         width: 80%;
@@ -179,7 +201,7 @@
         padding: 5px 15px;
         font-family: Raleway;
         font-weight: 600;
-        margin-top: 0;
+        margin-top: 1rem;
     }
     
     .footer-cont {
