@@ -119,15 +119,16 @@
     }
     .section-3 {
         padding: 0;
-        background: url(../images/brian-matangelo--BUPaAMSOdE-unsplash.jpg) no-repeat;
-        background-position: center;
+        background: url(../images/cute-girl-wearing-bikini.jpg) no-repeat;
+        background-position: bottom center;
         background-size: cover;
         background-attachment: fixed;
     }
     .section-3 > .container {
         width: 100%;
         padding: 5rem 2rem;
-        backdrop-filter: brightness(80%) blur(2px);
+        background-color: rgba(17, 179, 233, 0.293);
+        backdrop-filter: brightness(90%);
     }
     .section-3 > .container > h5 {
         text-align: start;
@@ -146,6 +147,9 @@
     }
     .container-fluid {
         grid-template-columns: 1fr;
+    }
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.673) 0px 3px 8px;
     }
     .card-title {
         align-items: center;
@@ -180,6 +184,7 @@
     }
     .services h4 {
         width: 80%;
+        text-transform: uppercase;
     }
     .services > .container {
         grid-template-columns: 1fr;
