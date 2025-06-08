@@ -611,6 +611,7 @@ footer {
     width: 12%;
 }
 .footer-col > h2 {
+    font-family: Roboto;
     font-size: 17px;
     text-transform: uppercase;
     color: var(--color-primary);
@@ -619,6 +620,7 @@ footer {
 .footer-col > p {
     font-size: 14px;
     font-weight: 500;
+    font-family: Roboto;
 }
 .footer-col > ul {
     list-style: none;
@@ -629,10 +631,13 @@ footer {
 .footer-col > ul li a {
     text-decoration: none;
     color: var(--color-text);
-    /* font-family: Raleway; */
+    font-family: Roboto;
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 600;
+}
+.socials > ul li a {
+    font-family: none;
 }
 .footer-col:nth-last-child(1) > ul {
     display: flex;
@@ -651,7 +656,7 @@ footer {
     text-align: start;
     text-wrap: nowrap;
     /* line-height: normal; */
-    font-family: Raleway;
+    font-family: Roboto;
     color: var(--color-text);
     text-transform: capitalize;
     font-weight: 800;
@@ -663,6 +668,7 @@ footer {
     font-weight: 600;
     color: var(--color-text);
     font-size: 12px;
+    font-family: Roboto;
     text-align: center;
 }
 .copyright > strong {
