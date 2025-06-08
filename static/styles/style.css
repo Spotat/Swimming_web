@@ -488,21 +488,21 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .service_heading {
     width: 70%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin: auto;
 }
 .service_heading h2 {
-    font-size: 4vh;
-    font-family: Roboto;
+    font-size: 5vh;
+    font-family: Montserrat;
     font-weight: 650;
-    color: #003366;
-    text-transform: capitalize;
+    /* color: #003366; */
+    text-transform: uppercase;
     font-weight: 400;
 }
 .service_heading > button {
@@ -583,6 +583,66 @@
     background: #ffa500;
     color: black;
     border: none;
+}
+/* section style */
+.section {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.section > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: top;
+    gap: 2em;
+}
+.section_cont > ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.section_cont > ul li {
+    display: flex;
+    align-items: center;
+    gap: var(--gap, 10px);
+    margin-top: 10px;
+}
+.section_cont > ul li > span {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #ffa6004b;
+    color: var(--color-accent);
+}
+.section_cont > ul li > p {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: var(--color-text);
+}
+.section_cont > h5 {
+    color: var(--color-accent);
+    font-size: 16px;
+}
+.section_cont > h2 {
+    width: 90%;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-family: Roboto;
+}
+.section_cont > p {
+    font-size: 17px;
+    color: var(--color-text);
+    margin-top: 20px;
+    font-family: Roboto;
+}
+.section_cont > img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
 }
 /* footer */
 footer {
