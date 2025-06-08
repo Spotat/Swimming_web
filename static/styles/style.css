@@ -130,7 +130,7 @@
     .sub_header > a{
         color: white;
     }
-    .openNav {
+    header > .openNav {
         display: none;
     }
     .header > .openNav {
