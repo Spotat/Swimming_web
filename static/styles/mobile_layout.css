@@ -128,7 +128,7 @@
         width: 100%;
         padding: 5rem 2rem;
         background-color: rgba(17, 179, 233, 0.293);
-        backdrop-filter: brightness(85%);
+        backdrop-filter: brightness(25%);
     }
     .section-3 > .container > h5 {
         text-align: start;
