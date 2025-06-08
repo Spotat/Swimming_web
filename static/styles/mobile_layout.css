@@ -119,7 +119,7 @@
     }
     .section-3 {
         padding: 0;
-        background: url(../images/cute-girl-wearing-bikini.jpg) no-repeat;
+        background: url(../images/thomas-park-QGdRrty4054-unsplash.jpg) no-repeat;
         background-position: bottom center;
         background-size: cover;
         background-attachment: fixed;
@@ -128,7 +128,7 @@
         width: 100%;
         padding: 5rem 2rem;
         background-color: rgba(17, 179, 233, 0.293);
-        backdrop-filter: brightness(90%);
+        backdrop-filter: brightness(85%);
     }
     .section-3 > .container > h5 {
         text-align: start;
