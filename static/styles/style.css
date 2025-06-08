@@ -500,10 +500,10 @@
 .service_heading h2 {
     font-size: 5vh;
     font-family: Montserrat;
-    font-weight: 650;
+    font-weight: 600;
     /* color: #003366; */
     text-transform: uppercase;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 .service_heading > button {
     padding: 10px 20px;
@@ -511,8 +511,7 @@
     font-weight: 600;
     color: var(--color-bg);
     background: var(--color-primary);
-    border: none;
-    margin-top: 20px;
+    border: none;co
     border-radius: 30px;
     cursor: pointer;
 }

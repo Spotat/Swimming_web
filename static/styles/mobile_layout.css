@@ -198,6 +198,7 @@
     }
     .service_heading {
         width: 80%;
+        align-items: center;
     }
     .service_heading h2 {
         font-size: 18px;
